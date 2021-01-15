@@ -44,7 +44,7 @@ const HeroImage = () => {
       {/* <Typography className={classes.heading} variant="h4" component="h1">
         The trees need you.
       </Typography> */}
-      <Typography className={classes.heading} variant="h2" component="h1">
+      <Typography className={classes.heading} variant="h1" component="h1">
         The trees need you.
       </Typography>
     </Box>

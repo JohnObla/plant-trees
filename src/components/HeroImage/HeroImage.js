@@ -15,7 +15,6 @@ const useStyles = makeStyles(theme => ({
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     position: 'relative',
-    ...fullWidth,
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
@@ -26,7 +25,6 @@ const useStyles = makeStyles(theme => ({
     color: 'white',
     textDecoration: 'uppercase',
     fontFamily: 'Impue, serif',
-    fontSize: 40,
   },
 }));
 
@@ -46,7 +44,7 @@ const HeroImage = () => {
       {/* <Typography className={classes.heading} variant="h4" component="h1">
         The trees need you.
       </Typography> */}
-      <Typography className={classes.heading} variant="h4" component="h1">
+      <Typography className={classes.heading} variant="h2" component="h1">
         The trees need you.
       </Typography>
     </Box>

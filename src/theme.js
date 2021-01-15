@@ -1,4 +1,4 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
 import {
   green,
   lightGreen,
@@ -25,16 +25,18 @@ const defaultTheme = createMuiTheme({
   },
 });
 
-const plantTreesTheme = createMuiTheme({
-  palette: {
-    primary: {
-      main: green[800],
+const plantTreesTheme = responsiveFontSizes(
+  createMuiTheme({
+    palette: {
+      primary: {
+        main: green[800],
+      },
+      secondary: {
+        main: orange[900],
+      },
     },
-    secondary: {
-      main: orange[900],
-    },
-  },
-});
+  })
+);
 
 export default plantTreesTheme;
 export { defaultTheme };

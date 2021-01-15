@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { makeStyles } from '@material-ui/core/styles';
-import { Typography } from '@material-ui/core';
+import { Container as Box, Typography } from '@material-ui/core';
 import { fullWidth } from '../../utils/';
 
 const useStyles = makeStyles(theme => ({
@@ -14,16 +14,15 @@ const useStyles = makeStyles(theme => ({
     backgroundSize: 'cover',
     position: 'relative',
     ...fullWidth,
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexWrap: 'wrap',
   },
 
-  title: {
-    border: 'none',
-    outline: '0',
-    display: 'inline-block',
-    padding: '10px 25px',
-    color: 'black',
-    backgroundColor: '#ddd',
-    textAlign: 'center',
+  heading: {
+    color: 'white',
+    textDecoration: 'uppercase',
   },
 }));
 
@@ -39,7 +38,11 @@ const HeroImage = () => {
     //   width="200"
     // />
 
-    <div className={classes.root}></div>
+    <Box className={classes.root}>
+      <Typography className={classes.heading} variant="h4" component="h1">
+        The trees need you.
+      </Typography>
+    </Box>
   );
 };
 

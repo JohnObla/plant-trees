@@ -14,13 +14,8 @@ export default function Index() {
       <Box>
         <HeroImage />
 
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
-
         <Typography>
-          I want to start with a story from the Onion. Because really, shouldn’t
-          every talk start with a story from the Onion? This is from earlier
+          Trees are dying everyday from lack of nutrition. This is from earlier
           this year. The headline reads: “Nation Shudders At Large Block Of
           Uninterrupted Text.” “Unable to rest their eyes on a colorful
           photograph or boldface heading that could be easily skimmed and

@@ -9,10 +9,14 @@ import MenuIcon from '@material-ui/icons/Menu';
 import EcoIcon from '@material-ui/icons/Eco';
 import Link from '../../Link';
 import LogoLink from '../LogoLink';
+import theme from '../../theme';
 
 const useStyles = makeStyles(theme => ({
   logo: {
     marginRight: 'auto',
+  },
+  ctaButton: {
+    margin: 'auto',
   },
   menuButton: {
     marginLeft: 'auto',
@@ -25,7 +29,18 @@ export default function Appbar() {
   return (
     <MuiAppBar position="static" component="nav" href="">
       <Toolbar>
-        <LogoLink />
+        <LogoLink className={classes.logo} />
+
+        <Button
+          className={classes.ctaButton}
+          variant="contained"
+          color="secondary"
+          component={Link}
+          naked
+          href="/"
+        >
+          Donate Now
+        </Button>
 
         <IconButton
           edge="end"

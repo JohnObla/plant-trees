@@ -1,5 +1,11 @@
 import { createMuiTheme } from '@material-ui/core/styles';
-import { lightGreen, orange, red, yellow } from '@material-ui/core/colors';
+import {
+  green,
+  lightGreen,
+  orange,
+  red,
+  yellow,
+} from '@material-ui/core/colors';
 
 // Create a theme instance.
 const defaultTheme = createMuiTheme({

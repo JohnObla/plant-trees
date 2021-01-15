@@ -28,7 +28,7 @@ const defaultTheme = createMuiTheme({
 const plantTreesTheme = createMuiTheme({
   palette: {
     primary: {
-      main: lightGreen[800],
+      main: green[800],
     },
     secondary: {
       main: orange[900],

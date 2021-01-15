@@ -3,11 +3,13 @@ import Image from 'next/image';
 import { makeStyles } from '@material-ui/core/styles';
 import { Container as Box, Typography } from '@material-ui/core';
 import { fullWidth } from '../../utils/';
+import EcoIcon from '@material-ui/icons/Eco';
 
 const useStyles = makeStyles(theme => ({
   root: {
     backgroundImage:
       'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/clearing-overhead-trees.jpg")',
+    //   'url("/clearing-overhead-trees.jpg")',
     height: '300px',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -23,6 +25,8 @@ const useStyles = makeStyles(theme => ({
   heading: {
     color: 'white',
     textDecoration: 'uppercase',
+    fontFamily: 'Impue, serif',
+    fontSize: 40,
   },
 }));
 
@@ -39,6 +43,9 @@ const HeroImage = () => {
     // />
 
     <Box className={classes.root}>
+      {/* <Typography className={classes.heading} variant="h4" component="h1">
+        The trees need you.
+      </Typography> */}
       <Typography className={classes.heading} variant="h4" component="h1">
         The trees need you.
       </Typography>

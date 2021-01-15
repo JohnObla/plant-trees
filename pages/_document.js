@@ -18,6 +18,10 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
           />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Imbue:wght@100;200;300;400;500;600&display=swap"
+            rel="stylesheet"
+          ></link>
         </Head>
         <body>
           <Main />

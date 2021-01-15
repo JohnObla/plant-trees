@@ -7,8 +7,8 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import EcoIcon from '@material-ui/icons/Eco';
-import { Eco } from '@material-ui/icons';
 import Link from '../../Link';
+import LogoLink from '../LogoLink';
 
 const useStyles = makeStyles(theme => ({
   logo: {
@@ -25,16 +25,7 @@ export default function Appbar() {
   return (
     <MuiAppBar position="static" component="nav" href="">
       <Toolbar>
-        <IconButton
-          edge="start"
-          className={classes.logo}
-          color="inherit"
-          aria-label="menu"
-          component={Link}
-          href="/"
-        >
-          <EcoIcon />
-        </IconButton>
+        <LogoLink />
 
         <IconButton
           edge="end"

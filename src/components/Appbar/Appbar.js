@@ -27,7 +27,7 @@ export default function Appbar() {
   const classes = useStyles();
 
   return (
-    <MuiAppBar position="static" component="nav" href="">
+    <MuiAppBar position="sticky" component="nav" href="">
       <Toolbar>
         <LogoLink className={classes.logo} />
 

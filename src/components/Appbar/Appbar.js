@@ -37,7 +37,7 @@ export default function Appbar() {
           color="secondary"
           component={Link}
           naked
-          href="/"
+          href="/about"
         >
           Donate Now
         </Button>

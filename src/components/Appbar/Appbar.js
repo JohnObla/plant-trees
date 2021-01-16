@@ -10,9 +10,11 @@ import EcoIcon from '@material-ui/icons/Eco';
 import Link from '../../Link';
 import LogoLink from '../LogoLink';
 import theme from '../../theme';
+import { blue } from '@material-ui/core/colors';
 
 const useStyles = makeStyles(theme => ({
   logo: {
+    color: theme.palette.common.white,
     marginRight: 'auto',
   },
   ctaButton: {
@@ -29,7 +31,7 @@ export default function Appbar() {
   return (
     <MuiAppBar position="sticky" component="nav" href="">
       <Toolbar>
-        <LogoLink color="inherit" className={classes.logo} />
+        <LogoLink className={classes.logo} />
 
         <Button
           className={classes.ctaButton}

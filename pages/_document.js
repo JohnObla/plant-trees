@@ -22,6 +22,10 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Imbue:wght@100;200;300;400;500;600&display=swap"
             rel="stylesheet"
           ></link>
+          <script
+            src="https://kit.fontawesome.com/d80fcd343f.js"
+            crossOrigin="anonymous"
+          ></script>
         </Head>
         <body>
           <Main />

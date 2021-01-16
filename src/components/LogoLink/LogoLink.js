@@ -6,6 +6,7 @@ import Link from '../../Link';
 const LogoLink = props => {
   return (
     <IconButton
+      color="inherit"
       edge="start"
       aria-label="home page"
       component={Link}

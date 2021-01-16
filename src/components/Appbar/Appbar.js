@@ -29,7 +29,7 @@ export default function Appbar() {
   return (
     <MuiAppBar position="sticky" component="nav" href="">
       <Toolbar>
-        <LogoLink className={classes.logo} />
+        <LogoLink color="inherit" className={classes.logo} />
 
         <Button
           className={classes.ctaButton}

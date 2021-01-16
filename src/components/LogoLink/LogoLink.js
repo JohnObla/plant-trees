@@ -8,7 +8,7 @@ const LogoLink = props => {
     <IconButton
       edge="start"
       color="inherit"
-      aria-label="menu"
+      aria-label="home page"
       component={Link}
       href="/"
       {...props}

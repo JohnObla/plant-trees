@@ -55,52 +55,50 @@ export default function Index() {
       </Box>
 
       <Box px={{ xs: 3, sm: 4, md: 5, lg: 6 }} py={{ xs: 2, sm: 3 }}>
-        <Typography className={classes.smallBrand} align="center" variant="h5">
-          Plant Trees
+        <Typography className={classes.smallBrand} variant="h5">
+          Plant Trees...
         </Typography>
 
-        <Box m="auto">
-          <List className={classes.list} aria-label="secondary mailbox folders">
-            <ListItem className={classes.listItem}>
-              <ListItemIcon>
-                <Icon className="fas fa-tree " color="primary" />
-              </ListItemIcon>
-              <ListItemText
-                primary="Planted 200 million trees worldwide."
-                //   primaryTypographyProps={{ align: 'center' }}
+        <List className={classes.list} aria-label="secondary mailbox folders">
+          <ListItem className={classes.listItem}>
+            <ListItemIcon>
+              <Icon className="fas fa-tree " color="primary" />
+            </ListItemIcon>
+            <ListItemText
+              primary="Planted 200 million trees worldwide."
+              //   primaryTypographyProps={{ align: 'center' }}
+            />
+          </ListItem>
+          <ListItem>
+            <ListItemIcon>
+              <Icon className="fas fa-hands-helping" color="secondary" />
+            </ListItemIcon>
+            <ListItemText
+              primary="Helped 300 thousand people connect with nature"
+              //   primaryTypographyProps={{ align: 'center' }}
+            />
+          </ListItem>
+          <ListItem>
+            <ListItemIcon>
+              <Icon className="fas fa-cog" />
+            </ListItemIcon>
+            <ListItemText
+              primary="Increased 250% of tree building efficiency"
+              //   primaryTypographyProps={{ align: 'center' }}
+            />
+          </ListItem>
+          <ListItem>
+            <ListItemIcon>
+              <Icon
+                className={classNames('fas fa-ban', `${classes.icon.blue}`)}
               />
-            </ListItem>
-            <ListItem>
-              <ListItemIcon>
-                <Icon className="fas fa-hands-helping" color="secondary" />
-              </ListItemIcon>
-              <ListItemText
-                primary="Helped 300 thousand people connect with nature"
-                //   primaryTypographyProps={{ align: 'center' }}
-              />
-            </ListItem>
-            <ListItem>
-              <ListItemIcon>
-                <Icon className="fas fa-cog" />
-              </ListItemIcon>
-              <ListItemText
-                primary="Increased 250% of tree building efficiency"
-                //   primaryTypographyProps={{ align: 'center' }}
-              />
-            </ListItem>
-            <ListItem>
-              <ListItemIcon>
-                <Icon
-                  className={classNames('fas fa-ban', `${classes.icon.blue}`)}
-                />
-              </ListItemIcon>
-              <ListItemText
-                primary="Prevented 50 companies from ilegally axing trees"
-                //   primaryTypographyProps={{ align: 'center' }}
-              />
-            </ListItem>
-          </List>
-        </Box>
+            </ListItemIcon>
+            <ListItemText
+              primary="Prevented 50 companies from ilegally axing trees"
+              //   primaryTypographyProps={{ align: 'center' }}
+            />
+          </ListItem>
+        </List>
       </Box>
 
       <Box px="2"></Box>

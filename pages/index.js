@@ -49,8 +49,8 @@ export default function Index() {
         py={{ xs: 2, sm: 3, md: 4 }}
       >
         <Typography>
-          Over 20 billion trees have been cut down in aid of tree spaces. We
-          need your help now more than ever. Please help us restore them.
+          Over 20 billion trees have been cut down in aid of tree spaces and we
+          need your help now more than ever. Please help us restore them ❤️
         </Typography>
       </Box>
 

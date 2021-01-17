@@ -24,6 +24,7 @@ const useStyles = makeStyles(theme => ({
   subtext: {
     backgroundColor: theme.palette.secondary.main,
     color: theme.palette.common.white,
+    textAlign: 'center',
   },
 
   listItem: {
